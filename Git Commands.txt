@@ -18,6 +18,7 @@ git checkout <commit id>
 git branch -m master main
 git remote 
 git remote remove <name>; git remote remove origin-->remove existing remote origin
+more <filename>
 
 //******************************************************
 
