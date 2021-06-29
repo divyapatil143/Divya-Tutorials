@@ -21,6 +21,8 @@ git remote
 git remote remove <name>; git remote remove origin-->remove existing remote origin
 more <filename>
 q -->if they are many commits in cmd. To come out of the running cmd
+git log --graph
+git log --graph --decorate --oneline
 
 //******************************************************
 
