@@ -23,6 +23,7 @@ more <filename>
 q -->if they are many commits in cmd. To come out of the running cmd
 git log --graph
 git log --graph --decorate --oneline
+git push all origin --->pushing feature branch along with master(local) to remote branch
 
 //******************************************************
 
