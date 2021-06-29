@@ -1,5 +1,6 @@
 
 git init
+git config --list
 git config --global user.name "MohanPulibanti"
 git config --global user.email "mohanchinna.kumar@gmail.com"
 git fetch
@@ -19,6 +20,7 @@ git branch -m master main
 git remote 
 git remote remove <name>; git remote remove origin-->remove existing remote origin
 more <filename>
+q -->if they are many commits in cmd. To come out of the running cmd
 
 //******************************************************
 
