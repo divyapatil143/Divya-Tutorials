@@ -1,0 +1,69 @@
+
+git init
+git config --global user.name "MohanPulibanti"
+git config --global user.email "mohanchinna.kumar@gmail.com"
+git fetch
+git add .
+git status
+git commit -a -m "Commit Message"
+git remote add origin githubURL
+git pull origin master
+git push --set-upstream https://MohanPulibanti:PersonalAccessToken@GithubURL
+git diff
+git push --set-upstream origin BranchExample
+git stash save
+git stash pop
+git reset --merge
+
+//******************************************************
+
+//******************************************************
+git config --global user.name ""
+git config --global user.email ""
+git config --global --list
+git clone giturl
+git status
+git add Filename.FileExtension
+git add .(to Add all the files)(to push from working directory to staging)
+git commit -a -m "Commit Message"(to move from staging to local repository)
+git push origin master
+git version
+exit
+notepad++ .bash_profile(In home directory)
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+alias npp='notepad++.exe -multiInst -nosession'
+git config --global -e
+git ls-files (Gives all the files  that git is tracking)
+git add .(to add all the files reccursively)(All Folder Structures)
+git reset HEAD filename.fileextension( to move back committed changes )
+git checkout -- level1-file.txt(to discard changes in work thats been done)
+git mv level3-file.txt level3.txt(to rename file in the working directory)
+(* bash cmd--mv level3-file.txt level3.txt will show two changes while git status is executed)
+git add -A(Adds new files and also update any files that are renamed,moved,deleted)
+git rm FileName.FileExtension(to remove a file in the directory)
+git help log(show us the help)
+git log --abbrev-commit
+git log
+git log --oneline --graph --decorate
+
+
+
+
+
+//***************************
+//Window Commands
+//***************************
+
+echo "What text to be Inserted in the file created" >> start.txt(Windows--Create text file and paste content)
+ls (list of files in the directory)
+ls -a(list all files including .files)
+ls -al(list all files including .files as a list)
+cat start.txt(Content in the files)(read Content in the files)
+pwd(Current Folder)
+mate SampeText.txt(to Create a new text file)(Works pnly in mac)
+cd\ (Takes to the top of the directory tree)
+cd /d Folderpath(to switch drive anf Folder once)
+dir(contents of the folder)
+mkdir (Crate new directory)
+mkdir -p level1/level2/level3/level5(to create Subdirectories under main directory)
+cd ../../..(to go back three folder structures)
