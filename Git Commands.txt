@@ -14,7 +14,8 @@ git push --set-upstream origin BranchExample
 git stash save
 git stash pop
 git reset --merge
-
+git checkout <commit id>
+git branch -m master main
 //******************************************************
 
 //******************************************************
